@@ -6,39 +6,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f0f4f8; /* Мягкий, светлый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 .container {
     max-width: 400px;
-    margin: auto;
+    width: 90%;
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 .logo {
     width: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    padding: 15px;
-    margin: 15px auto;
-    font-size: 16px;
+    width: 100%;
+    padding: 18px;
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: bold;
     color: white;
-    background-color: #007BFF;
+    background-color: #007BFF; /* Синий цвет */
     text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 .button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Более темный синий при наведении */
+    transform: translateY(-2px); /* Небольшой эффект "подъема" */
 }
 .lang-code {
     font-weight: bold;
@@ -46,8 +53,9 @@ body {
 }
 .title {
     font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 15px;
 }
 </style>
 </head>
@@ -56,21 +64,21 @@ body {
 <div class="container">
     <img src="logoDiyorHotel.png" alt="Логотип отеля" class="logo">
     
-   
+    <div class="title">Пожалуйста, выберите язык:</div>
     
-    <a href="https://forms.gle/mhMFAF7D5umAs6m37" class="button">
+    <a href="URL_РУССКОЙ_ФОРМЫ" class="button">
         <span class="lang-code">RU</span> Оставить отзыв
     </a>
-    <a href="https://forms.gle/mgf5ctnFMra93VZM6" class="button">
+    <a href="URL_АНГЛИЙСКОЙ_ФОРМЫ" class="button">
         <span class="lang-code">EN</span> Leave a feedback
     </a>
-    <a href="https://forms.gle/xH5eNkC6owq9ySRW9" class="button">
+    <a href="URL_КАЗАХСКОЙ_ФОРМЫ" class="button">
         <span class="lang-code">KZ</span> Пікір қалдыру
     </a>
-    <a href="https://forms.gle/dvd9dhCCG5p3YQoo9" class="button">
+    <a href="URL_УЗБЕКСКОЙ_ФОРМЫ" class="button">
         <span class="lang-code">UZ</span> Fikr-mulohaza qoldirish
     </a>
-    <a href="https://forms.gle/QzKZnhP6sZ2nR5Nv9" class="button">
+    <a href="URL_КИТАЙСКОЙ_ФОРМЫ" class="button">
         <span class="lang-code">CN</span> 留下您的反馈意见
     </a>
     
